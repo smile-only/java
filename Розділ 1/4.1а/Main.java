@@ -1,4 +1,3 @@
-//4.743416490252569
 import java.util.Scanner;
 public class Main
 {
