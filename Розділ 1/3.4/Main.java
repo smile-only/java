@@ -1,4 +1,5 @@
 import java.lang.Math;
+import java.math.BigDecimal;
 public class Main
 {
     public static void main(String[] args)
@@ -17,5 +18,12 @@ public class Main
         double dval4=Math.E;
         double dval5=Math.sqrt(5);
         double dval6=Math.log(100);
+        //BigDecimal
+        BigDecimal bval1=BigDecimal.valueOf(Math.pow(10,-4));
+        BigDecimal bval2=BigDecimal.valueOf(2.33E5);
+        BigDecimal bval3=BigDecimal.valueOf(Math.PI);
+        BigDecimal bval4=BigDecimal.valueOf(Math.E);
+        BigDecimal bval5=BigDecimal.valueOf(Math.sqrt(5));
+        BigDecimal bval6=BigDecimal.valueOf(Math.log(100));
     }
 }
